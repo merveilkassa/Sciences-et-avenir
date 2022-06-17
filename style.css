@@ -1,0 +1,1564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EDEDED;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    width: 100%; 
+    height: 36px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.div-image{
+    width:  200px;
+    height: 35px;
+    background: #fff;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    left: 170px;
+}
+.pagt{
+    position: relative;
+    color: rgb(94, 95, 95);
+}
+.div-liens{
+    width:  440px;
+    height: 35px;
+    position: relative;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.moi{
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.bart{
+    position: relative;
+    padding-left: 8px;
+}
+.connait{
+    position: absolute;
+    display: flex;
+    top: 7px;
+    right: 375px;
+    justify-content: space-between;
+    color: rgb(155, 154, 154);
+}
+.connais{
+    position: absolute;
+    display: flex;
+    top: 7px;
+    left: 140px;
+    justify-content: space-between;
+    color: rgb(155, 154, 154);
+}
+.connaisse{
+    position: absolute;
+    display: flex;
+    top: 7px;
+    left: 225px;
+    justify-content: space-between;
+    color: rgb(155, 154, 154);
+}
+.connaissait{
+    position: absolute;
+    display: flex;
+    top: 7px;
+    left: 290px;
+    justify-content: space-between;
+    color: rgb(155, 154, 154);
+}
+.abonner{
+    position: relative;
+    color: black;
+    background: hsl(45, 97%, 57%);
+    height: 53px;
+    width: 140px;
+}
+
+.div-recherche{
+    width: 310px;
+    height: 35px;
+    position: absolute;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    right: 180px;
+    display: flex;
+}
+
+.lui{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.connexion{
+    position: relative;
+    right: 23px;
+    top: 16px;
+    color: rgb(155, 154, 154);
+}
+.arore{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    color: black;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+.div-head{
+    width: 100%;
+    height: 115px;
+    background: #fff;
+    border: 1px solid rgb(178, 178, 178);
+    position: relative;
+}
+.imagee{
+    width: 180px;
+    height: 90px;
+    left: 580px;
+    top: 10px;
+    position: absolute;
+}
+.div-head2{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(178, 178, 178);
+}
+.bebe1{
+width: 59px;
+height: 44px;
+position: relative;
+color: rgb(37, 36, 36);
+border: 1px solid rgb(178, 178, 178);
+left: 290px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.bebe2{
+    width: 80px;
+    height: 44px;
+    position: relative;
+    border: 1px solid rgb(178, 178, 178);
+    left: 290px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+    .bebe3{
+        width: 78px;
+        height: 44px;
+        position: relative;
+        background: #fff;
+        border: 1px solid rgb(178, 178, 178);
+        left: 290px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        }
+        .bebe4{
+            width: 95px;
+            height: 44px;
+            position: relative;
+            border: 1px solid rgb(178, 178, 178);
+            left: 290px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            }
+            .bebe5{
+                width: 83px;
+                height: 44px;
+                position: relative;
+                border: 1px solid rgb(178, 178, 178);
+                left: 290px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                }
+                .bebe5{
+                    width: 85px;
+                    height: 44px;
+                    position: relative;
+                    border: 1px solid rgb(178, 178, 178);
+                    left: 290px;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    }
+                    .bebe6{
+                        width: 95px;
+                        height: 44px;
+                        position: relative;
+                        border: 1px solid rgb(178, 178, 178);
+                        left: 290px;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                        }
+                        .bebe7{
+                            width: 95px;
+                            height: 44px;
+                            position: relative;
+                            border: 1px solid rgb(178, 178, 178);
+                            left: 290px;
+                            justify-content: center;
+                            display: flex;
+                            align-items: center;
+                            }
+                            .bebe8{
+                                width: 98px;
+                                height: 44px;
+                                position: relative;
+                                border: 1px solid rgb(178, 178, 178);
+                                left: 290px;
+                                justify-content: center;
+                                display: flex;
+                                align-items: center;
+                                }
+                                .bebe9{
+                                    width: 120px;
+                                    height: 44px;
+                                    position: relative;
+                                    border: 1px solid rgb(178, 178, 178);
+                                    left: 290px;
+                                    justify-content: center;
+                                    display: flex;
+                                    align-items: center;
+                                    }
+                                    .zonne{
+                                        position: relative;
+                                        color: #fff;
+                                        top: 7px;
+                                    }
+                                    .div-head3{
+                                        width: 100%;
+                                        height: 35px;
+                                        background: #1BA6C5;
+                                        position: relative;
+                                    }
+                                    .mon{
+                                        color: #fff;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        position: relative;
+                                        list-style: none;
+                                        align-items: center;
+                                    }
+                                    .momo{
+                                        width: 800px;
+                                        height: 34px;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        position: relative;
+                                        left: 150px;
+                                    }
+                                    .nono{
+                                        width: 1000px;
+                                        height: 40px;
+                                        background: #fff;
+                                        position: relative;
+                                        left: 200px;
+                                        top: 270px;
+                                        border: 1px solid rgb(155, 154, 154);
+                                    }
+                                    .nonono{
+                                        width: 250px;
+                                        height: 38px;
+                                        right: 725px;
+                                        position: absolute;
+                                    }
+                                    .aventure{
+                                        padding-top: 5px;
+                                    }
+                                    .nonoa{
+                                        width: 590px;
+                                        height: 38px;
+                                        right: 100px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        position: absolute;
+                                    }
+                                    .guerre{
+                                        color: rgb(20, 145, 255);
+                                    }
+                                    .super{
+                                        width: 999px;
+                                        height: 25px;
+                                        background: #fff;
+                                        position: relative;
+                                        top: 38px;
+                                        border: 1px solid rgb(155, 154, 154);
+                                    }
+                                    .conte{
+                                        width: 999px;
+                                        height: 352px;
+                                        left: 201px;
+                                        background: #fff;
+                                        display: flex;
+                                        top: 294px;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        position: relative;
+                                        border: 1px solid rgb(155, 154, 154);
+                                    }
+                                    .conture{
+                                        width: 627px;
+                                        height: 352px;
+                                        position: relative;
+                                        border: 1px solid rgb(155, 154, 154);
+                                    }
+                                    .contoire{
+                                        width: 300px;
+                                        height: 375px;
+                                        bottom: 12px;
+                                        position: relative;
+                                    }
+                                    .edito{
+                                        position: relative;
+                                        padding-top: 35px;
+                                        color: black;
+                                    }
+                                    .para{
+                                        color: rgb(155, 154, 154);
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-top: 35px;
+                                    }
+                                    .parre{
+                                        width: 999px;
+                                        height: 25px;
+                                        position: relative;
+                                        background: #fff;
+                                        top: 293px;
+                                        left: 201px;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                    }
+                                    .bienne{
+                                        width: 999px;
+                                        height: 301px;
+                                        left: 201px;
+                                        background: #fff;
+                                        top: 293px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        position: relative;
+                                    }
+                                    .bienner{
+                                        width: 230px;
+                                        height: 301px;
+                                        display: flex;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        align-items: center;
+                                        position: relative;
+                                    }
+                                    .ime{
+                                        bottom: 60px;
+                                        left: 25px;
+                                        position: relative;
+                                    }
+                                    .leh3{
+                                        position: absolute;
+                                        padding-right: 70px;
+                                        left: 40px;
+                                        bottom: 20px;
+                                        font-size: 19px;
+                                    }
+                                    .lamere{
+                                        width: 650px;
+                                        height: 1302px;
+                                        position: relative;
+                                        background: #fff;
+                                        display: flex;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        justify-content: space-between;
+                                        top: 320px;
+                                        left: 200px;
+                                    }
+                                    .lameme{
+                                        width: 270px;
+                                        height: 1300px;
+                                        background: #fff;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        position: absolute;
+                                        right: 345px;
+                                    }
+                                    .laméme{
+                                        width: 270px;
+                                        height: 1300px;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        position: absolute;
+                                        left: 345px;
+                                    }
+                                    .ane{
+                                        width: 269px;
+                                        height: 350px;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        position: relative;
+                                    }
+                                    .torde{
+                                        width: 269px;
+                                        height: 350px;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        position: relative;
+                                    }
+                                    .pass{
+                                        color: rgb(155, 154, 154);
+                                        top: 6px;
+                                        position: relative;
+                                    }
+                                    .ane2{
+                                        width: 269px;
+                                        height: 370px;
+                                        top: 0px;
+                                        position: relative;
+                                    }
+                                    .pame{
+                                        color: rgb(155, 154, 154);
+                                        position: relative;
+                                        top: 20px;
+                                    }
+                                    .ane3{
+                                        width: 269px;
+                                        height: 380px;
+                                        top: 0px;
+                                        position: relative;
+                                    }
+                                    .arnage{
+                                        width: 269px;
+                                        height: 45px;
+                                        right: 1px;
+                                        top: 76px;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        position: relative;
+                                    }
+                                    .imagine{
+                                        position: relative;
+                                        left: 8px;
+                                        top: 6px;
+                                    }
+                                    .arnage2{
+                                        width: 269px;
+                                        height: 90px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .miel{
+                                        color: rgb(73, 72, 72);
+                                        position: relative;
+                                        font-size: 15px;
+                                        left: 50px;
+                                    }
+                                    
+                                    .arnage3{
+                                        width: 269px;
+                                        height: 97px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage4{
+                                        width: 269px;
+                                        height: 60px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage5{
+                                        width: 269px;
+                                        height: 83px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage6{
+                                        width: 269px;
+                                        height: 83px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage7{
+                                        width: 269px;
+                                        height: 90px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage8{
+                                        width: 269px;
+                                        height: 50px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 76px;
+                                    }
+                                    .arnage9{
+                                        width: 269px;
+                                        height: 290px;
+                                        right: 1px;
+                                        position: relative;
+                                        border: 2px solid  #1BA6C5;
+                                        top: 138px;
+                                    }
+                                    .masere{
+                                        position: relative;
+                                        left: 93px;
+                                        top: 10px;
+                                    }
+                                    .pague{
+                                        position: relative;
+                                        color: rgb(26, 26, 26);
+                                        left: 43px;
+                                        top: 34px;
+                                    }
+                                    .pamme{
+                                        width: 269px;
+                                        height: 90px;
+                                        right: 2px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                    }
+                                    .pampam{
+                                        position: relative;
+                                        left: 20px;
+                                        top: 18px;
+                                        color: #1BA6C5;
+                                        font-size: 20px;
+                                    }
+                                    .arnage10{
+                                        width: 267px;
+                                        height: 30px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 0px;
+                                    }
+                                    .arnage11{
+                                        width: 267px;
+                                        height: 50px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 0px;
+                                    }
+                                    .arnage12{
+                                        width: 267px;
+                                        height: 50px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 0px;
+                                    }
+                                     .arnage13{
+                                        width: 267px;
+                                        height: 66px;
+                                        position: relative;
+                                        border: 1px solid  rgb(206, 205, 205);
+                                        top: 0px;
+                                    }
+                                    .misse{
+                                        position: relative;
+                                        color: rgb(26, 26, 26);
+                                        top: 7px;
+                                        left: 17px;
+                                    }
+                                    .hein{
+                                        position: relative;
+                                        z-index: 1;
+                                        color: #1BA6C5;
+                                        font-size: 21px;
+                                        top: 20px;
+                                        left: 17px;
+                                    }
+                                   .bea{
+                                       width: 960px;
+                                       height: 600px;
+                                       top: 345px;
+                                       left: 199px;
+                                       z-index: 40;
+                                       display: flex;
+                                       justify-content: space-between;
+                                       position: relative;
+                                       background: #fff;
+                                       border: 1px solid  rgb(206, 205, 205);
+                                    }
+                                    .chericoco{
+                                        width: 959px;
+                                        height: 55px;
+                                        z-index: 1;
+                                        position: relative;
+                                        border: 1px solid   #41B1A3;
+                                        background: #41B1A3;
+                                    }
+                                    .cherise{
+                                        width: 170px;
+                                        height: 53px;
+                                        left: 35px;
+                                        top: 15px;
+                                        position: absolute;
+                                    }
+                                    .toila{
+                                        position: relative;
+                                        bottom: 6px;
+                                    }
+                                   .hummle{
+                                       width: 285px;
+                                       height: 543px;
+                                       top: 54px;
+                                       position: absolute;
+                                       border: 1px solid  rgb(206, 205, 205);
+                                     }
+                                   .hummlare{
+                                    width: 285px;
+                                    height: 443px;
+                                    top: 54px;
+                                    left: 334px;
+                                    position: absolute;
+                                    border: 1px solid  rgb(206, 205, 205);                              
+                                    }
+                                    .arte{
+                                        position: relative;
+                                        top: 44px;
+                                        left: 18px;
+                                    }
+                                    .boba{
+                                        position: relative;
+                                        top: 62px;
+                                        left: 18px;
+                                        color: rgb(148, 148, 148);
+                                    }
+                                    .tocam{
+                                        position: relative;
+                                        top: 78px;
+                                        padding-left: 18px;
+                                    }
+                                    .hummlare2{
+                                        width: 285px;
+                                        height: 102px;
+                                        top: 95px;
+                                        position: relative;
+                                        right: 1px;
+                                        border: 1px solid  rgb(206, 205, 205);                              
+                                        }
+                                    .hummlaise{
+                                    width: 285px;
+                                    height: 543px;
+                                    top: 54px;
+                                    left: 647px;
+                                    position: absolute;
+                                    border: 1px solid  rgb(206, 205, 205);                               
+                                    }
+                                    .hummle{
+                                    width: 285px;
+                                    height: 390px;
+                                    left: 24px;
+                                    border: 1px solid  rgb(206, 205, 205);
+                                    position: relative;
+                                    top: 54px;
+                                }
+                                .hummle2{
+                                    width: 285px;
+                                    height: 155px;
+                                    position: relative;
+                                    left: -1px;
+                                    border: 1px solid  rgb(206, 205, 205);
+                                    top: 100px;
+                                }
+                                .room{
+                                    position: relative;
+                                    top: 20px;
+                                    bottom: 30px;
+                                    left: 18px;
+                                }
+                                .kummas{
+                                    position: absolute;
+                                    left: 16px;
+                                    top: 20px;
+                                }
+                               .ooa{
+                                   position: relative;
+                                   width: 283px;
+                                   height: 230px;
+                                   border: 1px solid  rgb(206, 205, 205);
+                                   top: 30px;
+                               }
+                                
+                                .push{
+                                    position: relative;
+                                    top: 47px;
+                                    left: 20px;
+                                }
+                                .tocamard{
+                                    position: relative;
+                                    top: 78px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .broda{
+                                    width: 959px;
+                                    height: 109px;
+                                    position: relative;
+                                    top: 370px;
+                                    left: 200px;
+                                }
+                                .mwana{
+                                    width: 630px;
+                                    height: 600px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 413px;
+                                    left: 530px;
+                                }
+                                .mwana2{
+                                    width: 628px;
+                                    height: 55px;
+                                    position: relative;
+                                    background: black;
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                .espace{
+                                    position: absolute;
+                                    top: 11px;
+                                    left: 40px;
+                                }
+                                .toop{
+                                    width: 280px;
+                                    height: 360px;
+                                    left: 23px;
+                                    top: 20px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .toopage{
+                                    width: 280px;
+                                    height: 360px;
+                                    position: relative;
+                                    left: 325px;
+                                    bottom: 340px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .saoul{
+                                    position: relative;
+                                    color: black;
+                                    top: 20px;
+                                    left: 18px;
+                                }
+                                .spane{
+                                    position: relative;
+                                    background: hsl(45, 97%, 57%);
+                                    width: 4px;
+                                    color: #fff;
+                                }
+                                .criche{
+                                    position: relative;
+                                    top: 30px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .foucer{
+                                    width: 630px;
+                                    height: 165px;
+                                    position: relative;
+                                    z-index: 100;
+                                    display: flex;
+                                    bottom: 341px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .fac{
+                                    width: 280px;
+                                    height: 163px;
+                                    position: absolute;
+                                    left: 22px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .faque{
+                                    width: 280px;
+                                    height: 163px;
+                                    position: absolute;
+                                    left: 324px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .poiche{
+                                    width: 309px;
+                                    height: 600px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    bottom: 186px;
+                                    left: 200px;
+                                }
+                                .putch{
+                                    width: 309px;
+                                    height: 35px;
+                                    position: absolute;
+                                    border: 1px solid rgb(206, 205, 205);
+
+                                }
+                                .patage{
+                                    position: relative;
+                                    right: 26px;
+                                    color: black;
+                                }
+                                .patte{
+                                    position: relative;
+                                    right: 7px;
+                                    color: black;
+                                }
+                                .piche{
+                                    position: relative;
+                                    color: black;
+                                }
+                                .boom{
+                                    width: 22px;
+                                    height: 22px;
+                                    position: relative;
+                                    left: 284px;
+                                    top: 4px;
+                                }
+                                .facebook{
+                                    position: absolute;
+                                    left: 2px;
+                                    top: 2px;
+                                }
+                                .ananas{
+                                    position: relative;
+                                    display: flex;
+                                    list-style-type: none;
+                                    justify-content: space-between;
+                                    bottom: 10px;
+                                }
+                                .pomme{
+                                    font-size: 12px;
+                                    color: black;
+                                 
+                                }
+                                .euche{
+                                    width: 309px;
+                                    height: 80px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    position: absolute;
+                                    top: 34px;
+                                }
+                                .jeconnais{
+                                    width: 309px;
+                                    height: 75px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    position: absolute;
+                                    top: 114px;
+                                }
+                                .style{
+                                    width: 309px;
+                                    height: 70px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    position: absolute;
+                                    top: 189px;
+                                }
+                                .html{
+                                    width: 309px;
+                                    height: 70px;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    position: absolute;
+                                    top: 258px;
+                                }
+                                .python{
+                                    width: 309px;
+                                    height: 271px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top:   327px;
+                                }
+                                .magic{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 17px;
+                                    left: 20px;
+                                }
+                                .beauw{
+                                    position: relative;
+                                    text-align: justify;
+                                    left: 84px;
+                                    top: 15px;
+                                    font-weight: bolder;
+                                    color: black;
+                                }
+                                .bauk{
+                                    position: relative;
+                                    text-align: justify;
+                                    left: 84px;
+                                    top: 13px;
+                                    font-weight: bolder;
+                                    color: black;
+                                }
+                                .bauwot{
+                                    position: relative;
+                                    text-align: justify;
+                                    left: 84px;
+                                    top: 10px;
+                                    font-weight: bolder;
+                                    color: black;
+                                }
+                                .bauwot{
+                                    position: relative;
+                                    text-align: justify;
+                                    left: 84px;
+                                    top: 14px;
+                                    font-weight: bolder;
+                                    color: black;
+                                }
+                                .bauck{
+                                    position: relative;
+                                    text-align: justify;
+                                    left: 84px;
+                                    top: 14px;
+                                    font-weight: bolder;
+                                    color: black;
+                                }
+                                .magistrass{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 14px;
+                                    left: 20px;
+                                }
+                                .magitrant{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 11px;
+                                    left: 20px;
+                                }
+                                .magiter{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 10px;
+                                    left: 20px;
+                                }
+                                .magitonne{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 10px;
+                                    left: 20px;
+                                }
+                                .magitous{
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    background: rgb(37, 74, 196);
+                                    border: 1px solid rgb(206, 205, 205);
+                                    top: 10px;
+                                    left: 20px;
+                                }
+                                .gros-bloque{
+                                    width: 959px;
+                                    height: 390px;
+                                    left: 201px;
+                                    bottom: 70px;
+                                    position: relative;
+                                }
+                                .vie-branche{
+                                    width: 645px;
+                                    height: 567px;
+                                    position: relative;
+                                    left: 514px;
+                                    bottom: 45px;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .rousse{
+                                    width: 644px;
+                                    height: 58px;
+                                    position: relative;
+                                    background: #8C33A1;
+                                }
+                                .tech{
+                                    position: relative;
+                                    top: 10px;
+                                    left: 30px;
+                                }
+                                .barre{
+                                    width: 644px;
+                                    height: 26px;
+                                    position: relative;
+                                }
+                                .mamache{
+                                    width: 286px;
+                                    height: 483px;
+                                    left: 25px;
+                                    bottom: 1px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .toutounini{
+                                    width: 287px;
+                                    height: 483px;
+                                    left: 332px;
+                                    top: 83px;
+                                    position: absolute;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .energie{
+                                    position: relative;
+                                    color: black;
+                                    left: 18px;
+                                    top: 12px;
+                                }
+                                .capable{
+                                    position: relative;
+                                    top: 40px;
+                                    left: 16px;
+                                    color: rgb(148, 148, 148);
+                                }
+                                .parle{
+                                    position: relative;
+                                    top: 70px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .bomber{
+                                    width: 287px;
+                                    height: 118px;
+                                    left: 332px;
+                                    bottom: 119px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .cest-ca{
+                                    width: 959px;
+                                    height: 297px;
+                                    left: 198px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .kooma{
+                                    width: 296px;
+                                    height: 256px;
+                                    bottom: 5px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .bouje{
+                                    width: 294px;
+                                    height: 256px;
+                                    bottom: 261px;
+                                    left: 320px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .celela{
+                                    width: 295px;
+                                    height: 256px;
+                                    left: 639px;
+                                    bottom: 517px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .bu-lire{
+                                    width: 130px;
+                                    height: 28px;
+                                    top: 11px;
+                                    position: relative;
+                                    background: #3b9dda;
+                                    border: none;
+                                    left: 12px;
+                                }
+                                .butay{
+                                    color: #fff;
+                                    font-size: 10px;
+                                    font-weight: bold;
+                                }
+                                .bu-abonner{
+                                    width: 130px;
+                                    height: 28px;
+                                    top: 11px;
+                                    position: relative;
+                                    background: hsl(45, 97%, 57%);
+                                    border: none;
+                                    left: 19px;
+                                }
+                                .toity{
+                                    color: black;
+                                    font-size: 10px;
+                                    font-weight: bold;
+                                }
+                                .challenge{
+                                    position: relative;
+                                    left: 13px;
+                                    top: 28px;
+                                }
+                                .sc-avenir{
+                                    position: relative;
+                                    color: rgb(148, 148, 148);
+                                    top: 43px;
+                                    left:20px
+                                }
+                                .entrez{
+                                    position: relative;
+                                    color: black;
+                                    font-weight: bold;
+                                    left: 20px;
+                                    top: 40px;
+                                }
+                                .typere{
+                                    position: relative;
+                                    width: 256px;
+                                    height: 20px;
+                                    border: #fff;
+                                    top: 90px;
+                                    left: 21px;
+                                    font-size: 15px;
+                                }
+                                .choop{
+                                    position: relative;
+                                    width: 256px;
+                                    top: 91px;
+                                    left: 20px;
+                                }
+                                .fortent{
+                                    width: 130px;
+                                    height: 32px;
+                                    top: 115px;
+                                    position: relative;
+                                    background: #3b9dda;
+                                    border: none;
+                                    left: 147px;
+                                }
+                                .cassano{
+                                    width: 959px;
+                                    height:770px;
+                                    position: relative;
+                                    left: 197px;
+                                    top: 20px;
+                                    background-color: #fff;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .attendait{
+                                    width: 957px;
+                                    height: 60px;
+                                    position: relative;
+                                    background: #91AE3E;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .bimbam{
+                                    left: 40px;
+                                    top: 10px;
+                                    position: relative;
+                                }
+                                .hommes{
+                                    position: relative;
+                                    width: 958px;
+                                    height: 26px;
+                                    right: 2px;
+                                    top: 19px;
+                                }
+                                .heureux{
+                                    width: 608px;
+                                    height: 490px;
+                                    left: 22px;
+                                    top: 26px;
+                                    position: relative;
+                                    background: chocolate;
+                                    border: 1px solid rgb(206, 205, 205);
+                                }
+                                .troper{
+                                    width: 281px;
+                                    height: 682px;
+                                    bottom: 464px;
+                                    left: 652px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .orque{
+                                    width: 310px;
+                                    height: 194px;
+                                    position: absolute;
+                                    right: 303px;
+                                    bottom: -2px;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .beufe{
+                                    position: relative;
+                                    font-weight: bold;
+                                    color:black;
+                                    font-size: 17px;
+                                    left: 16px;
+                                    top: 10px;
+                                }
+                                .louper{
+                                    width: 240px;
+                                    height: 145px;
+                                    position: absolute;
+                                    right: 670px;
+                                    top: 515px;
+                                }
+
+                                .trapez{
+                                    position: relative;
+                                    top: 22px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .butter{
+                                    position: relative;
+                                    top: 68px;
+                                    left: 1px;
+                                }
+                                .buteur{
+                                    position: relative;
+                                    left: 1px;
+                                }
+                                .amour{
+                                    position: relative;
+                                    font-weight: bolder;
+                                    top: 80px;
+                                    left: 16px;
+                                    color: black;
+                                }
+                                .tappette{
+                                    position: relative;
+                                    top: 25px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .gramme{
+                                    position: relative;
+                                    top: 60px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .wow{
+                                    position: relative;
+                                    top: 45px;
+                                }
+                                .tuvase{
+                                    width: 959px;
+                                    height: 120px;
+                                    position: relative;
+                                    background: #91AE3E;
+                                    right: 654px;
+                                    top: 150px;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .environne{
+                                    width: 959px;
+                                    height: 560px;
+                                    right: 654px;
+                                    top: 185px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .pommes{
+                                    width: 957px;
+                                    height: 55px;
+                                    position: relative;
+                                    background: #30A465;
+                                }
+                                .toyl{
+                                    position: relative;
+                                    top: 9px;
+                                    left: 35px;
+                                }
+                                .tuneconnais{
+                                    width: 287px;
+                                    height: 455px;
+                                    right: 629px;
+                                    bottom: 270px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .tufouilles{
+                                    width: 287px;
+                                    height: 455px;
+                                    right: 318px;
+                                    bottom: 725px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .tubeugues{
+                                    width: 287px;
+                                    height: 455px;
+                                    right: 6px;
+                                    bottom: 1180px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .heros{
+                                    position: absolute;
+                                    font-weight: bolder;
+                                    top: 30px;
+                                    color: black;
+                                    top: 230px;
+                                    font-size: 18px;
+                                    left: 12px;
+                                }
+                                .filmas{
+                                    position: relative;
+                                    top: 65px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                 .hommade{
+                                    position: absolute;
+                                    font-weight: bolder;
+                                    top: 357px;
+                                    color: black;
+                                    font-size: 18px;
+                                    left: 12px;
+                                 }
+                                 .coolle{
+                                     position: relative;
+                                     top: 110px;
+                                 }
+                                 .quetoi{
+                                    position: absolute;
+                                    font-weight: bolder;
+                                    top: 30px;
+                                    color: black;
+                                    top: 248px;
+                                    font-size: 18px;
+                                    left: 12px;
+                                }
+                                .droles{
+                                    position: relative;
+                                    top: 20px;
+                                }
+                                .chips{
+                                    position: absolute;
+                                    font-weight: bold;
+                                    top: 250px;
+                                    color: black;
+                                    font-size: 18px;
+                                    left: 12px;
+                                 }
+                                 .equipe{
+                                    position: relative;
+                                    top: 85px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .jetekiffe{
+                                    width: 959px;
+                                    height: 445px;
+                                    top: 300px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .ahbon{
+                                    width: 957px;
+                                    height: 55px;
+                                    position: relative;
+                                    background: #FDAA20;
+                                }
+                                .blaze{
+                                    position: relative;
+                                    top: 4px;
+                                    left: 35px;
+                                }
+                                .grosblog{
+                                    width: 956px;
+                                    top: 8px;
+                                    position: relative;
+                                }
+                                .parametre{
+                                    width: 233px;
+                                    height: 98px;
+                                    left: 35px;
+                                    top: 324px;
+                                    position: absolute;
+                                    background: #fff;
+                                }
+                                .coca{
+                                    position: absolute;
+                                    font-weight: bold;
+                                    top: 0px;
+                                    color: black;
+                                    font-size: 18px;
+                                    left: 12px;
+                                 }
+                                 .equipement{
+                                    position: relative;
+                                    top: 80px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .fanta{
+                                    width: 959px;
+                                    height: 535px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                    top: 330px;
+                                }
+                                .djuno{
+                                    width: 957px;
+                                    height: 57px;
+                                    position: relative;
+                                    background: #4F40A6;
+                                }
+                                .mangeais{
+                                    position: relative;
+                                    left: 53px;
+                                    bottom: -14px;
+                                }
+                                .booste{
+                                    width: 909px;
+                                    height: 478px;
+                                    left: 24px;
+                                    position: relative;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .jetaimais{
+                                    position: relative;
+                                    top: 22px;
+                                }
+                                .mamane{
+                                    position: relative;
+                                    top: 25px;
+                                }
+                                .trois{
+                                    position: absolute;
+                                }
+                                .jelaime{
+                                    position: relative;
+                                    width: 302px;
+                                    height: 225px;
+                                    left: 323px;
+                                    bottom: 204px;
+                                }
+                                .sotega{
+                                    width: 300px;
+                                    height: 224px;
+                                    bottom: 226px;
+                                    left: 25px;
+                                    z-index: 100;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .chips{
+                                    position: absolute;
+                                    font-weight: bold;
+                                    top: 15px;
+                                    color: black;
+                                    font-size: 17px;
+                                    left: 12px;
+                                 }
+                                 .chorde{
+                                    position: absolute;
+                                    font-weight: bold;
+                                    top: 117px;
+                                    color: black;
+                                    font-size: 17px;
+                                    left: 12px;
+                                 }
+                                 .chrome{
+                                    position: relative;
+                                    top: 100px;
+                                 }
+                                 .equipage{
+                                    position: relative;
+                                    top: 165px;
+                                    color: rgb(148, 148, 148);
+                                    padding-left: 18px;
+                                }
+                                .javance{
+                                    width: 6px;
+                                    position: relative;
+                                    top: 90px
+                                }
+                                .sogatrome{
+                                    width: 300px;
+                                    height: 227px;
+                                    bottom: 226px;
+                                    left: 348px;
+                                    bottom: 454px;
+                                    position: relative;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .marios{
+                                    width: 959px;
+                                    height: 794px;
+                                    position: relative;
+                                    top: 360px;
+                                    background: #fff;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .marez{
+                                    width: 957px;
+                                    height: 60px;
+                                    position: relative;
+                                    background: #9F7D52;
+                                }
+                                .archeo{
+                                    position: relative;
+                                    left: 40px;
+                                    top: 10px;
+                                }
+                                .root{
+                                    position: relative;
+                                    top: 1px;
+                                }
+                                .torres{
+                                    width: 606px;
+                                    height: 439px;
+                                    bottom: 267px;
+                                    left: 25px;
+                                    position: absolute;
+                                    background: #faa23d;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
+                                .tomame{
+                                    width: 282px;
+                                    height: 707px;
+                                    bottom: 0px;
+                                    left: 651px;
+                                    position: absolute;
+                                    background: #83daf5;
+                                    border: 1px solid rgb(206, 206, 205);
+                                }
