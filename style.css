@@ -41,6 +41,7 @@ a{
     justify-content: space-between;
 }
 .moi{
+    font-family: Electrolize, Helvetica, arial, sans-serif;
     list-style: none;
     align-items: center;
     justify-content: space-between;
@@ -102,6 +103,7 @@ a{
 }
 
 .lui{
+    font-family: Electrolize, Helvetica, arial, sans-serif;
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -145,6 +147,7 @@ a{
 .bebe1{
 width: 59px;
 height: 44px;
+font-family: Electrolize, Helvetica, arial, sans-serif;
 position: relative;
 color: rgb(37, 36, 36);
 border: 1px solid rgb(178, 178, 178);
@@ -156,6 +159,8 @@ align-items: center;
 .bebe2{
     width: 80px;
     height: 44px;
+    font-family: Electrolize, Helvetica, arial, sans-serif;
+    font-size: 14px;
     position: relative;
     border: 1px solid rgb(178, 178, 178);
     left: 290px;
@@ -166,6 +171,8 @@ align-items: center;
     .bebe3{
         width: 78px;
         height: 44px;
+        font-family: Electrolize, Helvetica, arial, sans-serif;
+        font-size: 14px;
         position: relative;
         background: #fff;
         border: 1px solid rgb(178, 178, 178);
@@ -177,6 +184,8 @@ align-items: center;
         .bebe4{
             width: 95px;
             height: 44px;
+            font-family: Electrolize, Helvetica, arial, sans-serif;
+            font-size: 14px;
             position: relative;
             border: 1px solid rgb(178, 178, 178);
             left: 290px;
@@ -187,6 +196,8 @@ align-items: center;
             .bebe5{
                 width: 83px;
                 height: 44px;
+                font-family: Electrolize, Helvetica, arial, sans-serif;
+                font-size: 14px;
                 position: relative;
                 border: 1px solid rgb(178, 178, 178);
                 left: 290px;
@@ -197,6 +208,8 @@ align-items: center;
                 .bebe5{
                     width: 85px;
                     height: 44px;
+                    font-family: Electrolize, Helvetica, arial, sans-serif;
+                    font-size: 14px;
                     position: relative;
                     border: 1px solid rgb(178, 178, 178);
                     left: 290px;
@@ -207,6 +220,8 @@ align-items: center;
                     .bebe6{
                         width: 95px;
                         height: 44px;
+                        font-family: Electrolize, Helvetica, arial, sans-serif;
+                        font-size: 14px;
                         position: relative;
                         border: 1px solid rgb(178, 178, 178);
                         left: 290px;
@@ -217,6 +232,8 @@ align-items: center;
                         .bebe7{
                             width: 95px;
                             height: 44px;
+                            font-family: Electrolize, Helvetica, arial, sans-serif;
+                            font-size: 14px;
                             position: relative;
                             border: 1px solid rgb(178, 178, 178);
                             left: 290px;
@@ -227,6 +244,8 @@ align-items: center;
                             .bebe8{
                                 width: 98px;
                                 height: 44px;
+                                font-family: Electrolize, Helvetica, arial, sans-serif;
+                                font-size: 14px;
                                 position: relative;
                                 border: 1px solid rgb(178, 178, 178);
                                 left: 290px;
@@ -237,6 +256,8 @@ align-items: center;
                                 .bebe9{
                                     width: 120px;
                                     height: 44px;
+                                    font-family: Electrolize, Helvetica, arial, sans-serif;
+                                    font-size: 14px;
                                     position: relative;
                                     border: 1px solid rgb(178, 178, 178);
                                     left: 290px;
@@ -244,6 +265,7 @@ align-items: center;
                                     display: flex;
                                     align-items: center;
                                     }
+
                                     .zonne{
                                         position: relative;
                                         color: #fff;
@@ -1687,3 +1709,85 @@ align-items: center;
                                 width: 63px;
                                 top: 55px;
                              }
+                             .débauche{
+                                width: 959px;
+                                height: 535px;
+                                position: relative;
+                                top: 755px;
+                                background: #fff;
+                                 border: 1px solid rgb(206, 206, 205);
+                             }
+                             .decouvrir{
+                                width: 958px;
+                                height: 60px;
+                                position: relative;
+                                background: #ED4267;
+                             }
+                             .decou{
+                                position: relative;
+                                left: 50px;
+                                top: 8px;
+                             }
+                             .real{
+                                width: 288px;
+                                height: 450px;
+                                position: relative;
+                                bottom: 5px;
+                                left: 24px;
+                                background: #fff;
+                                border: 1px solid rgb(206, 206, 205);
+                             }
+                             .reed-bool{
+                                width: 288px;
+                                height: 450px;
+                                position:absolute;
+                                bottom: 0;
+                                left: 335px;
+                                background: #fff;
+                                border: 1px solid rgb(206, 206, 205);
+                             }
+                             .recapule{
+                                width: 288px;
+                                height: 450px;
+                                position: absolute;
+                                bottom: 0;
+                                left: 646px;
+                                background: #fff;
+                                border: 1px solid rgb(206, 206, 205);
+                             }
+                             .sadonne{
+                                position: absolute;
+                                font-weight: bold;
+                                top: 230px;
+                                left: 20px;
+                                color: black;
+                                font-size: 17px;
+                                left: 20px;
+                             }
+                             .porche{
+                                position: relative;
+                                color: rgb(148, 148, 148);
+                                left: 20px;
+                                top: 60px;
+                            }
+                            .rootage{
+                                position: relative;
+                                width: 250px;
+                                top: 100px;
+                             }
+                             .poompo{
+                                position: absolute;
+                                font-weight: bold;
+                                top: 375px;
+                                left: 20px;
+                                color: black;
+                                font-size: 17px;
+                                left: 20px;
+                             }
+                             .porchure{
+                                position: relative;
+                                color: rgb(148, 148, 148);
+                                left: 20px;
+                                top: 165px;
+                            }
+                           
