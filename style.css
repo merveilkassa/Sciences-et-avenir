@@ -5,6 +5,9 @@
 }
 body{
     background: #EDEDED;
+    font-size: 16px;
+    font-weight: 16px;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -208,7 +211,6 @@ align-items: center;
                 .bebe5{
                     width: 85px;
                     height: 44px;
-                    font-family: Electrolize, Helvetica, arial, sans-serif;
                     font-size: 14px;
                     position: relative;
                     border: 1px solid rgb(178, 178, 178);
@@ -220,7 +222,6 @@ align-items: center;
                     .bebe6{
                         width: 95px;
                         height: 44px;
-                        font-family: Electrolize, Helvetica, arial, sans-serif;
                         font-size: 14px;
                         position: relative;
                         border: 1px solid rgb(178, 178, 178);
@@ -1790,4 +1791,183 @@ align-items: center;
                                 left: 20px;
                                 top: 165px;
                             }
-                           
+                            .footer{
+                                width: 1440px;
+                                height: 640px;
+                                right: 290px;
+                                position: relative;
+                                background: #2F3033;
+                                border: 1px solid rgb(31, 31, 29);
+                                top: 880px;
+                            }
+                            .cestelle{
+                                position: relative;
+                                height: 73px;
+                            }
+                            .ceste{
+                                position: absolute;
+                                height: 73px;
+                                left: 1262px
+                            }
+                            .barca{
+                                position: relative;
+                                width: 995px;
+                                height: 68px;
+                                background: #2F3033;
+                                border: 1px solid rgb(36, 36, 34);
+                                left: 265px;
+                                bottom: 78px;
+
+                            }
+                            .avouele{
+                                position: relative;
+                                left: 10px;
+                                top: 15px;
+                            }
+                            .ukraineguerre{
+                                position: relative;
+                                left: 30px;
+                                top: 17px;
+                            }
+                            .covid{
+                                position: relative;
+                                left: 30px;
+                                top: 16px;
+                            }
+                            .ronaldo{
+                                position: absolute;
+                                left: 530px;
+                                top: 21px;
+                            }
+                            .switch{
+                                position: absolute;
+                                left: 810px;
+                                top: 19px;
+                            }
+                            .pogba{
+                                position: relative;
+                                width: 248px;
+                                height: 465px;
+                                bottom: 79px;
+                                left: 265px;
+                                border: 1px solid rgb(29, 29, 28);
+                            }
+                            .liverpool{
+                                position: absolute;
+                                width: 250px;
+                                height: 465px;
+                                bottom: 107px;
+                                left: 512px;
+                                border: 1px solid rgb(29, 29, 28);
+                            }
+                            .madrid{
+                                position: absolute;
+                                width: 250px;
+                                height: 465px;
+                                bottom: 107px;
+                                left: 761px;
+                                
+                                border: 1px solid rgb(29, 29, 28);
+                            }
+                            .chelsea{
+                                position: absolute;
+                                width: 250px;
+                                height: 465px;
+                                bottom: 107px;
+                                left: 1010px;
+                                border: 1px solid rgb(29, 29, 28);
+                            }
+                            .index{
+                                position: relative;
+                                top: 15px;
+                                font-size: 13px;
+                                color: #fff;
+                                left: 20px;
+                            }
+                            .javascript{
+                                position: relative;
+                                color: rgb(145, 145, 141);
+                                top: 30px;
+                                font-size: 12px;
+                                left: 20px;
+                            }
+                            .letourla{
+                                position: relative;
+                                font-size: 12px;
+                                color: rgb(145, 145, 141);
+                                left: 20px;
+                                top: 15px;
+                            } 
+                            .usine{
+                                position: relative;
+                                font-size: 12px;
+                                color: rgb(145, 145, 141);
+                                left: 20px;
+                                top: 30px;
+                            } 
+                            .onverra{
+                                position: relative;
+                                font-size: 12px;
+                                color: rgb(145, 145, 141);
+                                left: 20px;
+                                top: 30px;
+                            }
+                            .pouga{
+                                position: relative;
+                                width: 248px;
+                                top: 50px;
+                                background-color: #f86604 !important;
+                            }
+                            .porpro{
+                                position: relative;
+                                font-size: 12px;
+                                color: #fff;
+                                left: 20px;
+                                top: 70px;
+                            } 
+                            .koala{
+                                position: relative;
+                                width: 995px;
+                                height: 109px;
+                                left: 265px;
+                                bottom: 195px;
+                                background: #2F3033;
+                                border: 1px solid rgb(31, 31, 29);                            
+                            }
+                            .GABON{
+                                width: 175px;
+                                position: relative;
+                                bottom: 83px;
+                                left: 90px;
+                            }
+                            .GABONAIS{
+                                width: 175px;
+                                position: relative;
+                                bottom: 307px;
+                                left: 1260px;
+                            }
+                            .logo-footer{
+                                position: relative;
+                                width: 105px;
+                                left: 40px;
+                                top: 15px;
+                            }
+                            .neymar{
+                                position: absolute;
+                                font-size: 14px;
+                                color: rgb(145, 145, 141);
+                                left: 190px;
+                                bottom: 55px;
+                            }
+                            .leomessi{
+                                position: absolute;
+                                left: 895px;
+                                top: 23px;
+                            }
+                            .germain{
+                                position: absolute;
+                                font-size: 14px;
+                                color: rgb(145, 145, 141);
+                                 left: 766px;
+                                bottom: 58px;
+                            }
